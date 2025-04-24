@@ -1,3 +1,26 @@
+## tsid (humble) - 1.8.0-1
+
+The packages in the `tsid` repository were released into the `humble` distro by running `/nix/store/fzk45mxsx3ihl63w4mhvkzhdb4hj8jy1-python3.12-bloom-0.12.0/bin/bloom-release --new-track -r humble tsid` on `Thu, 24 Apr 2025 09:43:44 -0000`
+
+The `tsid` package was released.
+
+Version of package(s) in repository `tsid`:
+
+- upstream repository: https://github.com/stack-of-tasks/tsid
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.8.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## tsid (jazzy) - 1.8.0-1
 
 The packages in the `tsid` repository were released into the `jazzy` distro by running `/nix/store/fzk45mxsx3ihl63w4mhvkzhdb4hj8jy1-python3.12-bloom-0.12.0/bin/bloom-release -r jazzy tsid` on `Thu, 24 Apr 2025 09:22:32 -0000`
