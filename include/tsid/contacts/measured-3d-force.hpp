@@ -1,19 +1,6 @@
 //
 // Copyright (c) 2025 CNRS INRIA LORIA
 //
-// This file is part of tsid
-// tsid is free software: you can redistribute it
-// and/or modify it under the terms of the GNU Lesser General Public
-// License as published by the Free Software Foundation, either version
-// 3 of the License, or (at your option) any later version.
-// tsid is distributed in the hope that it will be
-// useful, but WITHOUT ANY WARRANTY; without even the implied warranty
-// of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-// General Lesser Public License for more details. You should have
-// received a copy of the GNU Lesser General Public License along with
-// tsid If not, see
-// <http://www.gnu.org/licenses/>.
-//
 
 #ifndef __invdyn_measured_3d_force_hpp__
 #define __invdyn_measured_3d_force_hpp__
@@ -34,18 +21,18 @@ class Measured3Dforce : public MeasuredForceBase {
   typedef pinocchio::Data Data;
   typedef pinocchio::Data::Matrix3x Matrix3x;
 
-  Measured3Dforce(const std::string &name, RobotWrapper &robot,
-                  const std::string &frameName);
+  Measured3Dforce(const std::string& name, RobotWrapper& robot,
+                  const std::string& frameName);
 
-  const Vector &computeJointTorques(Data &data) override;
+  const Vector& computeJointTorques(Data& data) override;
 
   /**
    *  Set the value of the external wrench applied by the environment on the
    * robot.
    */
-  void setMeasuredContactForce(const Vector3 &fext);
+  void setMeasuredContactForce(const Vector3& fext);
 
-  const Vector3 &getMeasuredContactForce() const;
+  const Vector3& getMeasuredContactForce() const;
 
   /**
    * @brief Specifies if the external force and jacobian is
