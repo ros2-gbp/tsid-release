@@ -1,0 +1,12 @@
+Source: ros-lyrical-tsid
+Section: misc
+Priority: optional
+Maintainer: Guilhem Saurel <guilhem.saurel@laas.fr>
+Build-Depends: debhelper (>= 9.0.0), cmake, doxygen, git, graphviz, libboost-all-dev, ros-lyrical-eigenpy, ros-lyrical-eiquadprog, ros-lyrical-pinocchio, ros-lyrical-ros-workspace
+Homepage: https://github.com/stack-of-tasks/tsid
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-tsid
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, graphviz, libboost-all-dev, ros-lyrical-ament-cmake, ros-lyrical-eigenpy, ros-lyrical-eiquadprog, ros-lyrical-pinocchio, ros-lyrical-ros-workspace
+Description: Efficient Task Space Inverse Dynamics (TSID) based on Pinocchio
