@@ -1,3 +1,26 @@
+## tsid (rolling) - 1.10.0-1
+
+The packages in the `tsid` repository were released into the `rolling` distro by running `/nix/store/yr02v08v8dzvm5cbhvlbag590psbayxw-python3.13-bloom-0.14.3/bin/bloom-release -r rolling tsid` on `Sun, 10 May 2026 14:15:06 -0000`
+
+The `tsid` package was released.
+
+Version of package(s) in repository `tsid`:
+
+- upstream repository: https://github.com/stack-of-tasks/tsid
+- release repository: https://github.com/ros2-gbp/tsid-release.git
+- rosdistro version: `1.9.0-2`
+- old version: `1.9.0-2`
+- new version: `1.10.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## tsid (lyrical) - 1.10.0-1
 
 The packages in the `tsid` repository were released into the `lyrical` distro by running `/nix/store/yr02v08v8dzvm5cbhvlbag590psbayxw-python3.13-bloom-0.14.3/bin/bloom-release -r lyrical tsid` on `Sun, 10 May 2026 14:13:23 -0000`
